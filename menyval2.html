@@ -1,0 +1,58 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+<header>
+            <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+            <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Hem</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Hetaste i veckan</a></li>
+                        <li><a href="menyval2.html">Sociala medier</a></li>
+                        <li><a href="menyval3.html">Trender</a></li>
+                        <li><a href="menyval4.html">Egna spel</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>Snapchat.</h1>
+    <p>På snapchat ligger nog Bente och Danjal i toppen på dramalistan. Bente och hännes Mr grey har skapat mycket diskuteringar på media medans Danjals felsägning på Jockes live har väckt uppmärksamhet hos Hydra. Jag skulle nog säga att båda har sådana problem som egentligen ingen borde lägga sig i. Min veckans Snapchat går till Bente för hännes roliga flöde som sätter leendet på läpparna. </p>
+
+    <p>På Instagram vet jag om att det har blivit snack om Therese Lindgrens inlägg om att hon tröttnar mer och mer på Instagram flödet. Annars vill jag ge veckans Instagram till Helen torsgården för att hon uppdaterar så bra och lägger upp fina inlägg hela veckan</p>
+
+    </main>
+</body>
+</html>

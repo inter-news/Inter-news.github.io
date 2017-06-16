@@ -1,0 +1,68 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+<header>
+            <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+            <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Hem</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Hetaste i veckan</a></li>
+                        <li><a href="menyval2.html">Sociala medier</a></li>
+                        <li><a href="menyval3.html">Trender</a></li>
+                        <li><a href="menyval4.html">Egna spel</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1 class="rubrik-appelsinjuice">De senaste trenderna.</h1>
+   <p>
+    På youtube i toppen så hittar vi Jocke och Jonnas video med Riley där dom testar USA godis. Vi alla har nog sätt några av deras godis videor där dom testar godis då dom videorna är deras populäraste serie på kanalen ferutom spökvideorna. Min åsikt är väl att den är lite lång för att vara en testar godis video fast kvaliten är bra och jag gillar dom som personer så det är de värt.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ONlFG2NIUYs" frameborder="0" allowfullscreen></iframe>
+
+    <img class="figetspinners" src="bilder/file.jpg">
+
+    <h1> Figet spinners...</h1> 
+    <p>Figet spinners var,är och förblir en av de största trenderna. Enligt mig är det som Pokemon Go. På bara några timmar lyckades dom fånga sin publiks ögon dock dog den ut efter bara några veckor då andra tränder blev större.>   </p>
+
+  <img src="bilder/slime.jpg">
+
+    <h1>.Slime.</h1> 
+
+    <p>Slime är en tränd som troligtvis inte håller ihop så länge mer. Det började som en DIY video och sedan blev det fler och fler och fler och så vidare... Hursom helst tycker jag att trenden är ganska onödig då man lägger mycket pengar på det och slimen stelnar om man inte förvarar den i en lyft tät burk. Nu så kryllar det av miljontals videos och DTY:s om hur man gör det och över 600.000 slime receptdock både fungerande och ike fungerande.</p>
+    </main>
+</body>
+</html>

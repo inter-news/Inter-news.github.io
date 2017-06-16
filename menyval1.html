@@ -1,0 +1,57 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+<header>
+            <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+            <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Hem</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Hetaste i veckan</a></li>
+                        <li><a href="menyval2.html">Sociala medier</a></li>
+                        <li><a href="menyval3.html">Trender</a></li>
+                        <li><a href="menyval4.html">Egna spel</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+   <h1>Jocke och Jonnas spökvideos fake?</h1>
+   Under senaste veckan har Jocke och Jonnas söpkvideos tydligen bevisats som fake eller??? Enligt mig så är det bara nånsens att det ska bli en sån stor fråga. Det hela började med att Jocke startade en facebook live under inspelningen. Ingen annan i teamet visste om att han filmade. Jocke gick med kameran och började närma sig Danjal som pratade med LTGS. Enligt Jocke och alla andra så ska Danjal ha skämtat om att dom skulle "bygga ett spöke". Det är ingen annan än dom som vet säkert om han skämtade men många tror att det var beviset på att spökjakterna var fake allihop. Jag tror att det var ett skämt med tanke på allt hat som dom fått om att det är fake. Men jag vet inte säkert så jag kan ha fel. Men snälla sluta hata på dom tycker ni att dom är fake och att Jocke och Jonna inte är bra youtubers bara igga dom då slösa inte bort er tid på att skriva kommentarer som dom inte tar åt sig av. Det finns ingen anledning att hata så sluta med det.
+
+   <img class ="fake" src="bilder/fake.jpg">
+    </main>
+</body>
+</html>
